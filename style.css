@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffc9dc;
+}
+
+header {
+    margin: auto;
+    background: #ff80a0;
+}
+.logo {
+    color: #fefbfe;
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 325px;
+    float: left;
+    height: 65px;
+}
+
+.menu {
+    width: 600px;
+    float: left;
+    height: 100px;
+    text-align: center;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 18px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fafefa;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #eed29c;
+}
+
+main .content {
+    text-align: center;
+    padding: 20px;
+}
+
+main .content h1 {
+    font-size: 35px;
+    color: #5e5fab;
+    font-family: times new roman bold;
+    margin-top: 20px;
+}
+
+main .content h2 {
+    font-size: 30px;
+    color: #5e5fab;
+    font-family: times new roman bold;
+    margin-top: 20px;
+}
+
+main .content h3 {
+    font-size: 25px;
+    color: #5e5fab;
+    font-family: times new roman bold;
+    margin-top: 20px;
+}
+
+main .content p {
+    font-size: 20px;
+    color: #000000;
+    font-family: times new roman;
+    margin-top: 20px;
+}
+
+main .content img {
+    width: 560px;
+    height: 564px;
+}
+
+main .content .poemHeader {
+    text-align: left;
+    margin-left: 720px;
+}
+
+main .content .k {
+    text-align: left;
+    margin-left: 600px;
+    margin-bottom: 65px;
+}
+
+main .content .a {
+    text-align: left;
+    margin-left: 600px;
+    margin-bottom: 65px;
+}
+
+main .content .t {
+    text-align: left;
+    margin-left: 600px;
+    margin-bottom: 65px;
+}
+
+main .content .e {
+    text-align: left;
+    margin-left: 600px;
+    margin-bottom: 65px;
+}
+
+.aki {
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    width: 250px;
+}
